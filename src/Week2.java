@@ -59,7 +59,7 @@ public class Week2 {
     
     // Tehtävä 3
     public void tehtava3(){
-        tehtava3Part3(3);
+        tehtava3Part4(4);
     }
     public void tehtava3Part1(int maara){
         for(int i = 0; i < maara; i++){
@@ -93,5 +93,22 @@ public class Week2 {
         
         if(maara > 1)
             tehtava3Part3(maara-1);
+    }
+    public void tehtava3Part4(int maara){
+        int toistoKerta = kerrat++;
+        
+        if(maara > 1)
+            tehtava3Part4(maara-1);
+        
+        if(maara > 1)
+            tehtava3Part4(maara-1);
+        
+        if(maara > 1)
+            tehtava3Part4(maara-1);
+        
+        for(int i = 0; i < maara; i++){
+            System.out.print("*");
+        }
+        System.out.println(" " + toistoKerta);
     }
 }
