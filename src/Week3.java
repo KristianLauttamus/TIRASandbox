@@ -8,6 +8,13 @@ import java.util.Arrays;
  */
 
 public class Week3 {
+    public static void tehtava1(){
+        // a) 9.21
+        // b) 92103.40
+        // c) 100000000
+        // d) 8.44
+    }
+    
     public static void tehtava4(){
         int[] array = new int[]{2, 3, 3, 4, 4, 4, 5};
         System.out.println(tehtava4(array, 4));
